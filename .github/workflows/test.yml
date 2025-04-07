@@ -3,10 +3,10 @@ name: Run Tests Before Push
 on:
   push:
     branches:
-      - main  # Adjust to your target branch
+      - master  # Adjust to your target branch
   pull_request:
     branches:
-      - main  # Adjust to your target branch
+      - master  # Adjust to your target branch
 
 jobs:
   test:
